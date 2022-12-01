@@ -1,0 +1,66 @@
+body {
+    margin: 5px;
+    font-family: Arial;
+    background-color: #00aaff;
+}
+
+.header {
+    display: flex;
+    background-color: blue;
+    padding: 10px 10px 10px 10px;
+}
+
+.logo-container {
+    font-size: 15px;
+    padding: 0px 0px 0px 0px;
+    color: white;
+}
+
+.logo-container h1{
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    height: 100%;
+}
+
+.navigation a{
+    display: table;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+    background-color: blue;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover{
+    background-color: darkorange;
+    color: #101010;
+}
+
+.content {
+    margin-top: 10px;
+    color: white;
+}
+
+.content img {
+    float: left;
+    width: 500px;
+    height: 500px;
+    padding: 0px 0px 0px 0px;
+}
+
+.text-img {
+    margin-left: 510px;
+    font-size: 18px;
+}
+
+.text {
+    font-size: 18px;
+}
